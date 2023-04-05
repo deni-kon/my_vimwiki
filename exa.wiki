@@ -1,0 +1,3 @@
+- a modern replacement for _ls_
+- written in Rust
+* *pacman -S exa*

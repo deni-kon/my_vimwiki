@@ -1,0 +1,5 @@
+polybar, tilda, rofi, picom, tmux (and other alternative in rust, i forgot), nautilus, pulseaudio-alsa, nitrogen
+, htop, neofetch
+
+check out:
+	nextcloud-client, conky, pavucontrol, lxappearance,

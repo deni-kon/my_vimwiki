@@ -1,0 +1,17 @@
+* *paru -S kbdlight macbook-lighter*
+* *systemctl enable --now macbook-lighter*
+* *macbook-light-ambient*
+- last ones auto-adjusts on ambient light
+
+
+== Commands ==
+* *macbook-lighter-kbd --max*
+- set keyboard backlight to max
+* *macbook-lighter-kbd --min*
+- close backlight
+* *macbook-light-kbd -i _<Num>_*
+- increases backlight by _<Num>_
+* *macbook-light-kbd -d _<Num>_*
+- decreases backlight by _<Num>_
+
+- max: 255, min: 0

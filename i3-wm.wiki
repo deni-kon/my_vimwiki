@@ -1,0 +1,29 @@
+= Ideas =
+    - maybe change i3's _jkl;_ to vi's _hjkl_ or actually otherwise
+
+
+= Commands =
+* *$mod + f*
+- fullscreen mode
+
+* *$mod + e*
+- toggle vertical and horizonal window modes
+
+* *$mod + w*
+- tabbed mode
+
+* *$mod + Shift + q*
+- kill a window
+
+== Workspaces ==    
+    * *$mod + [num]*
+    - move to _numth_ workspace
+
+    * *$mod + Shift + [num]*
+    - move focues window to _numth_ workspace
+    
+* *$mod + Shift + c*
+- restarting i3 inplace
+
+* *$mode + Shift + e*
+- exit i3

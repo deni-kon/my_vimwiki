@@ -1,0 +1,10 @@
+= Ly =
+- display manager with console UI
+- github: fairyglade/ly (~4k stars)
+
+- compiled it from source on macbook air machine
+
+
+= Lightdm =
+packages: *lightdm* *lightdm-gtk-greeter*
+enable service: *systemctl enable lightdm*

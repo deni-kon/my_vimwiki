@@ -1,0 +1,3 @@
+packages: *xorg-xinit xorg-server xorg-xbacklight mesa lib32-mesa xf86-video-intel terminator tilda vulkan-intel cpio*
+
+- downloaded these packages, but further steps give an error, so nevermind

@@ -1,0 +1,5 @@
+The user friendly command line
+* *pacman -S fish*
+* *chsh -s bin/fish*
+- use fish as a default shell
+- also add it as a default shell in [[Alacritty]]

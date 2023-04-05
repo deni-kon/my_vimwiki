@@ -1,0 +1,9 @@
+*EPB value* |	*String*
+_0_	  |	_performance_
+_4_	  |	_balance-performance_
+_6_	  |	_normal, default_
+_8_	  |	_balance-power_
+_15_    | _power_
+
+- I've set it to 2 in _su_ mode with:
+* _echo [epb] | tee /sys/devices/system/cpu/cpu*/power/energy_perf_bias_

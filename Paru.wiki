@@ -1,0 +1,16 @@
+- written in Rust
+
+== Download ==
+* *pacman -S base-devel*
+* *git clone https://aur.archlinux.org/paru.git*
+* *cd paru*
+* *makepkg -si*
+
+
+== Commands ==
+* *paru -S _<target>_*
+- install _<target>_
+* *paru*
+- alias for *paru -Syu*
+* *paru -Sua*
+- upgrade AUR packages

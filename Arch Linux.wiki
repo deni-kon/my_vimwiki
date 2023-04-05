@@ -1,0 +1,40 @@
+= Get WiFi to work =
+packages: *networkmanager network-manager-applet broadcom-wl-dkms dkms iw wireless_tools iwd dialog*
+
+
+= Disable Grub delay =
+- config file: _/etc/default/grub_
+- set *GRUB_TIMEOUT_STYLE=hidden*
+- hold <Esc> key to display usual menu
+- *grub-mkconfig -o /boot/grub/grub.cfg* (update Grub config)
+
+= [[i3-wm]] =
+
+= [[Terminal]] =
+
+= [[Github CLI]] =
+
+= [[Fonts]] =
+
+= [[Pacman]] = 
+- Arch Linux default package manager
+
+
+= [[Rustup]] =
+= [[Paru]] =
+
+= [[Display Manager]] =
+
+
+= CPU frequency scaling =
+- never bothered to actually look into it
+- downloaded *thermald* and *systemctl start thermald.service* and *systemctl enable thermald.service*
+
+
+= [[EPB]] =
+- Intel performance and energy bias
+= [[Solid State Drive]] =
+= [[Xorg]] =
+= [[Htop]] =
+= [[Keyboard light]] =
+= [[Random]] =

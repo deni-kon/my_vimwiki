@@ -1,0 +1,26 @@
+Here's a possible implementation in Rust using the given code snippet:
+
+rust
+
+impl Solution {
+    pub fn num_rescue_boats(people: Vec<i32>, limit: i32) -> i32 {
+        let mut sorted_people = people.clone();
+        sorted_people.sort();
+        let mut boats = 0;
+        let mut left = 0;
+        let mut right = sorted_people.len() - 1;
+        
+        while left <= right {
+            if sorted_people[left] + sorted_people[right] <= limit {
+                left += 1;
+            }
+            right -= 1;
+            boats += 1;
+        }
+        
+        boats
+    }
+}
+
+This implementation first sorts the people vector in ascending order, then uses a two-pointer approach to count the minimum number of boats needed. The left pointer starts at the beginning of the sorted vector, and the right pointer starts at the end. While the left pointer is less than or equal to the right pointer, we check if the sum of the weights at the left and right pointers is less than or equal to the limit. If it is, we increment the left pointer. In either case, we decrement the right pointer and increment the boats counter. Finally, the function returns the boats counter.
+

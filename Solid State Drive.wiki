@@ -1,0 +1,3 @@
+didn't bother learning all about it, but
+* *systemctl enable fstrim.timer*
+- should improve performance, does something every week
