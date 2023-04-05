@@ -8,7 +8,7 @@ packages: *networkmanager network-manager-applet broadcom-wl-dkms dkms iw wirele
 - hold <Esc> key to display usual menu
 - *grub-mkconfig -o /boot/grub/grub.cfg* (update Grub config)
 
-= [[i3-wm]] =
+= [[i3-wm.wiki]] =
 
 = [[Terminal]] =
 
