@@ -1,16 +1,16 @@
-= Commands =
+=== Commands ===
 * *pacman -Syu*
 * *pacman -S*
 * *pacman -Rs*
 
 
-= Get some color =
+=== Get some color ===
 - pacman's config: _/etc/pacman.conf_
 - uncomment *Color* and add *ILoveCandy* underneath
 - uncomment parallel downloads
 
 
-= Pacman's cache =
+=== Pacman's cache ===
 - downloaded packages are stored in: _/var/cache/pacman/pkg_
 
 
@@ -23,25 +23,25 @@ paccache(8) script, provided withing the *pacman-contrib*
 - remove all files from the cache directory
 
 
-= Removing Orphans =
+=== Removing Orphans ===
 Orphans are packages that were installed as a dependency and are no longer required by any package
 * *pacman -Qtdq | pacman -Rns -*
 - recursively removes orphans and their config file
 - if no orphans were found, the output is "error: argument '-' specified with empty stdin"
 
 
-== Timers ==
+=== Timers ===
 * *systemctl enable paccache.timer*
 - discards unused packages weekly
 * *systemctl enable pacman-filesdb-refresh.timer*
 - refreshes pacman files database weekly
 
 
-== VerbosePkgList ==
+=== VerbosePkgList ===
 - uncomment *VerbosePlgList* in _etc/pacman.conf_ to see package versions and display it vertically
 
 
-== multilib ==
+=== multilib ===
 *multilib* contains 32-bit software and libraries that can be used to run and build 32-bit applications
 such as wine and steam...
 - to enable *multilib* uncomment _[multilib]_ section in _etc/pacman.conf_
@@ -49,7 +49,7 @@ such as wine and steam...
 - lists all packages in _multilib_ repository
 
 
-== Reflector ==
+=== Reflector ===
 - package: *reflector*
 - *Reflector* is a Python script which can do stuff with mirror lists (improves quality of life)
 - uncomment _--country France, Germany_ in _/etc/pacman.d/mirrorlist_

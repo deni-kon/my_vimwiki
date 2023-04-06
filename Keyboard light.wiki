@@ -4,7 +4,7 @@
 - last ones auto-adjusts on ambient light
 
 
-== Commands ==
+=== Commands ===
 * *macbook-lighter-kbd --max*
 - set keyboard backlight to max
 * *macbook-lighter-kbd --min*

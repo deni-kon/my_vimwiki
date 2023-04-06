@@ -1,23 +1,23 @@
-= [[fish]] =
+=== [[fish]] ===
 
-= bat =
+=== bat ===
 * *pacman -S bat*
 - better *cat* command
 
 
-= ripgrep =
+=== ripgrep ===
 * *pacman -S ripgrep*
 - recursively searches directories for a regex pattern while respecting _.gitignore_
 - written in Rust
 
 
-= [[zoxide]] =
+=== [[zoxide]] ===
 
-= [[exa]] =
+=== [[exa]] ===
 
-= [[fzf]] =
+=== [[fzf]] ===
 
-= delta =
+=== delta ===
 * *pacman -S git-delta*
 - a syntax-highlighting pager for git, diff and grep output
 - written in Rust

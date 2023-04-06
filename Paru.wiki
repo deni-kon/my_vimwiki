@@ -1,13 +1,13 @@
 - written in Rust
 
-== Download ==
+=== Download ===
 * *pacman -S base-devel*
 * *git clone https://aur.archlinux.org/paru.git*
 * *cd paru*
 * *makepkg -si*
 
 
-== Commands ==
+=== Commands ===
 * *paru -S _<target>_*
 - install _<target>_
 * *paru*

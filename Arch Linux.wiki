@@ -1,42 +1,40 @@
-= Get WiFi to work =
+=== Get WiFi to work ===
 packages: *networkmanager network-manager-applet broadcom-wl-dkms dkms iw wireless_tools iwd dialog*
 
 
-= Disable Grub delay =
+=== Disable Grub delay ===
 - config file: _/etc/default/grub_
 - set *GRUB_TIMEOUT_STYLE=hidden*
 - hold <Esc> key to display usual menu
 - *grub-mkconfig -o /boot/grub/grub.cfg* (update Grub config)
 
-* [[Test]]
+=== [[i3-wm.wiki|i3-wm]] ===
 
-= [[i3-wm.wiki|i3-wm]] =
+=== [[Terminal.wiki|Terminal]] ===
 
-== [[Terminal]] ==
+=== [[Github CLI.wiki|Github CLI]] ===
 
-=== [[Github CLI]] ===
+=== [[Fonts.wiki|Fonts]] ===
 
-= [[Fonts]] =
-
-= [[Pacman]] = 
+=== [[Pacman.wiki|Pacman]] === 
 - Arch Linux default package manager
 
 
-= [[Rustup]] =
-= [[Paru]] =
+=== [[Rustup.wiki|Rustup]] ===
+=== [[Paru.wiki|Paru]] ===
 
-= [[Display Manager]] =
+=== [[Display Manager.wiki|Display Manager]] ===
 
 
-= CPU frequency scaling =
+=== CPU frequency scaling ===
 - never bothered to actually look into it
 - downloaded *thermald* and *systemctl start thermald.service* and *systemctl enable thermald.service*
 
 
-= [[EPB]] =
+=== [[EPB.wiki|EPB]] ===
 - Intel performance and energy bias
-= [[Solid State Drive]] =
-= [[Xorg]] =
-= [[Htop]] =
-= [[Keyboard light]] =
-= [[Random]] =
+=== [[Solid State Drive.wiki|Solid State Drive]] ===
+=== [[Xorg.wiki|Xorg]] ===
+=== [[Htop.wiki|Htop]] ===
+=== [[Keyboard light.wiki|Keyboard light]] ===
+=== [[Random.wiki|Random]] ===

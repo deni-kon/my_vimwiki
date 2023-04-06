@@ -1,8 +1,8 @@
-= Ideas =
+=== Ideas ===
     - maybe change i3's _jkl;_ to vi's _hjkl_ or actually otherwise
 
 
-= Commands =
+=== Commands ===
 * *$mod + f*
 - fullscreen mode
 
@@ -15,7 +15,7 @@
 * *$mod + Shift + q*
 - kill a window
 
-== Workspaces ==    
+=== Workspaces ===    
     * *$mod + [num]*
     - move to _numth_ workspace
 

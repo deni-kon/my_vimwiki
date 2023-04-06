@@ -6,7 +6,7 @@
 - add it in _~/.config/fish/config.fish_
 
 
-== Commands ==
+=== Commands ===
 z foo              # cd into highest ranked directory matching foo
 z foo bar          # cd into highest ranked directory matching foo and bar
 z foo /            # cd into a subdirectory starting with foo

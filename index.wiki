@@ -1,2 +1,2 @@
-[[Arch Linux]]
-[[Other]]
+[[Arch Linux.wiki|Arch Linux]]
+[[Other.wiki|Other]]
