@@ -1,0 +1,2 @@
+=== DuckDuckGo Bangs ===
+* !gw - Gentoo Wiki
