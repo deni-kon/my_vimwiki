@@ -1,2 +1,12 @@
+* The depth of choice of core software, target architectures, and low-level optimization configuration, is why Gentoo is called *meta-distribution*.
+
+=== [[Bestiary]] ===
+
 === DuckDuckGo Bangs ===
 * !gw - Gentoo Wiki
+
+=== Portage's make.conf ===
+* add -march=native and -mtune=native to COMMON_FLAGS
+
+
+=== [[Misc.wiki|Misc]] ===

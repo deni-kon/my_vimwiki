@@ -1,0 +1,6 @@
+=== Init System ===
+init is the first process started during booting of the operating system. Init is a daemon
+process that continues running until the system is shut down.
+
+=== Daemon ===
+daemon is a computer program that runs as a background process
