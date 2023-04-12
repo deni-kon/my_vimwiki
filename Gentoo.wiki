@@ -5,8 +5,8 @@
 === DuckDuckGo Bangs ===
 * !gw - Gentoo Wiki
 
-=== Portage's make.conf ===
+=== [[make.conf.wiki|Portage's make.conf]] ===
 * add -march=native and -mtune=native to COMMON_FLAGS
-
+* actually just add -march=native, since adding both would be redundant and unnecessary
 
 === [[Misc.wiki|Misc]] ===
