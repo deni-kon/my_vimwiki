@@ -1,5 +1,5 @@
 === Get WiFi to work ===
-packages: *networkmanager network-manager-applet broadcom-wl-dkms dkms iw wireless_tools iwd dialog*
+packages: *networkmanager network-manager-applet broadcom-wl-dkms dkms iw wireless_tools iwd dialog wpa_supplicant*
 
 
 === Disable Grub delay ===

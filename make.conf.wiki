@@ -37,4 +37,7 @@ USE="-gnome -kde -bluetooth -systemd -aqua -coreaudio -ios -ipod -cdinstall -cdr
 	-emacs -xemacs -altivec -ibm -cups -3dfx -clamav -ppc -ppc64 -amd -radeon -nouveau \
 	x xinerama alsa pulseaudio networkmanager wifi firmware-loader xft svg truetype jpeg png gif webp \
 	xcb dri hwaccel llvm dbus udev intel vaapsi aes sse sse2 sse3 ssse3 sse4_1 sse4_2 avx avx2 threads \
-	multilib"
+	multilib opengl vulkan"
+
+
+=== Kernel Configuration ===
