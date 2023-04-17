@@ -1,5 +1,7 @@
 * The depth of choice of core software, target architectures, and low-level optimization configuration, is why Gentoo is called *meta-distribution*.
 
+=== [[installation_log.wiki|Installation Log]] ===
+
 === [[Bestiary]] ===
 
 === DuckDuckGo Bangs ===

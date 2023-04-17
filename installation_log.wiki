@@ -1,0 +1,15 @@
+=== Before Starting ===
+My machine is Macbook Air 7.2 y.2017(or 2019) with a broadcom
+
+=== Log  ===
+* ifconfig -a
+* dhcpcd <interface name>
+==== Partitioning ====
+- if you have a laptop and going to be using hibernation,
+  then swap = RAM or  swap = RAM * 2, else 2-4GB should suffice, I'll go with 4, because
+  i'm going be using "suspend to RAM".
+
+* fdisk /dev/sda (if you have SATA and /nvme0.. if you have NMVe)
+* g, n, Enter, Enter, +1G (256MiB would be enough, but i'm gonna be having 2 kernels)
+* t, 1 for EFI System; n, Enter, +4GB (for a swap), t, 19; n, Enter, Enter, Enter;
+* reboot just in case
